@@ -8,4 +8,4 @@ Puedes acceder a mi workspace aquí:
 ---
 
 ## 📚 Documentación de la API (Postman)
-👉 https://documenter.getpostman.com/view/9578016/2sB3dHWCzs[Uploading DBDicri.sql…]()
+👉 https://documenter.getpostman.com/view/9578016/2sB3dHWCzs
