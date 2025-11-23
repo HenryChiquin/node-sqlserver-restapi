@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:  
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "StrongPass#123"
+    ports:
+      - "1433:1433"
+
+  app:
+    container_name: nodeapp
+    build: .
+    depends_on:
+      - db
+    ports:
+      - "5002:5000"
